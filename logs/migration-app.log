@@ -1,0 +1,7 @@
+{"level":"info","time":"2025-06-22T18:39:23+02:00","message":"Starting database migration process"}
+{"level":"info","time":"2025-06-22T18:39:23+02:00","message":"Database connection established successfully"}
+{"level":"info","time":"2025-06-22T18:39:23+02:00","message":"Database connection opened successfully"}
+{"level":"info","host":"localhost","port":5432,"database":"oauth","time":"2025-06-22T18:41:26+02:00","message":"Connecting to database"}
+{"level":"info","time":"2025-06-22T18:41:26+02:00","message":"Database connection established successfully"}
+{"level":"info","time":"2025-06-22T18:41:26+02:00","message":"Database connection opened successfully"}
+{"level":"info","time":"2025-06-22T18:41:26+02:00","message":"Migration up completed successfully"}

@@ -1,0 +1,23 @@
+package pages
+
+import "oauth/views/layout"
+
+templ Login() {
+	@layout.App() {
+		<main class="container mx-auto px-4 py-16 flex flex-col gap-10 md:gap-20">
+			<section class="max-w-4xl mx-auto text-center">
+				<h1 class="text-5xl font-bold mb-6">
+					Login with <span class="text-accent">OAuth</span>
+				</h1>
+				<div class="flex flex-col justify-center items-center gap-2">
+					<a class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors px-4 py-2 border" href="/auth/google">
+						Login with Google
+					</a>
+					<a class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background bg-primary text-white px-4 py-2" href="/restricted">
+						Access Restricted Content
+					</a>
+				</div>
+			</section>
+		</main>
+	}
+}
